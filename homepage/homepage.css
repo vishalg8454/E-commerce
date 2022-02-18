@@ -50,3 +50,14 @@
     z-index: 20;
     opacity: 0.6;
 }
+.featured{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card-container{
+    width: auto;
+}
