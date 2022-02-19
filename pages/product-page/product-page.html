@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Page</title>
+
+    <link rel="stylesheet" href="https://component-vishalg8454.netlify.app/components/main.css">
+    <link rel="stylesheet" href="./product-page.css">
+    <script src="https://kit.fontawesome.com/06bd83eb3a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="grid-wrapper">
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <a class="nav-logo" href="#">E-COMMERCE</a>
+                <div class="nav-search-container">
+                    <input class="nav-search-text" type="text">
+                    <button class="nav-search-button"><i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <button class="btn btn-primary-outline  nav-cta">Login</button>
+                <ul class="nav-list">
+                    <li class="nav-list-items">
+                        <div>
+                            <a> <i class="badge-icon fas fa-heart nav-icon"></i></a>
+                            <div class="badge-text">9</div>
+                        </div>
+                    </li>
+                    <li class="nav-list-items">
+                        <div>
+                            <a><i class="badge-icon fas fa-shopping-cart nav-icon"></i></a>
+                            <div class="badge-text">3</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <aside class="filter">
+            <p class="filter-label">Filters</p>
+            <p class="filter-label">Price</p>
+            <div class="slider-container">
+                <div class="label-container">
+                    <span>0</span>
+                    <span>50</span>
+                    <span>100</span>
+                </div>
+                <input class="slider" type="range" min="0" max="100" value="50">
+            </div>
+            <p class="filter-label">Category</p>
+            <ul class="category-list">
+                <li class="category-list-item">
+                    <input type="checkbox" name="category">
+                    <label for="fiction"> Fiction</label><br>
+                </li>
+                <li class="category-list-item">
+                    <input type="checkbox" name="category">
+                    <label for="sci-fi"> Sci-Fi</label><br>
+                </li>
+                <li class="category-list-item">
+                    <input type="checkbox" name="category">
+                    <label for="novel"> Novel</label><br>
+                </li>
+            </ul>
+            <p class="filter-label">Rating</p>
+            <ul class="category-list">
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="4">
+                    <label for="4star">4 Stars & above</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="3">
+                    <label for="3star">3 Stars & above</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="2">
+                    <label for="2star">2 Stars & above</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="1">
+                    <label for="1star">1 Stars & above</label>
+                </li>
+            </ul>
+            <p class="filter-label">Sort by</p>
+            <ul class="category-list">
+                <li class="category-list-item">
+                    <input type="radio" id="low" name="sort">
+                    <label for="low">Price - Low to High</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="high" name="sort">
+                    <label for="high">Price - High to Low</label>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <div class="card-container">
+                <img class="card-image" src="/assets/norwegian-wood.jpeg"
+                 alt="Item Image">
+                <h6 class="card-title">Norwegian Wood, Haruki Murakami</h6>
+                <p class="card-description card-price">₹ 300</p>
+                <div class="card-btn-container">
+                    <button class="card-btn card-btn-primary">Add to Cart</button>
+                    <button class="card-btn card-btn-secondary">Save For Later</button>
+                    <i class="card-btn-icon far fa-heart"></i>
+                </div>
+                <div class="card-badge">-22%</div>
+            </div>
+
+            <div class="card-container">
+                <img class="card-image" src="/assets/norwegian-wood.jpeg"
+                 alt="Item Image">
+                <h6 class="card-title">Norwegian Wood, Haruki Murakami</h6>
+                <p class="card-description card-price">₹ 300</p>
+                <div class="card-btn-container">
+                    <button class="card-btn card-btn-primary">Add to Cart</button>
+                    <button class="card-btn card-btn-secondary">Save For Later</button>
+                    <i class="card-btn-icon far fa-heart"></i>
+                </div>
+                <div class="card-badge">-22%</div>
+            </div>
+            
+            <div class="card-container">
+                <img class="card-image" src="/assets/norwegian-wood.jpeg"
+                 alt="Item Image">
+                <h6 class="card-title">Norwegian Wood, Haruki Murakami</h6>
+                <p class="card-description card-price">₹ 300</p>
+                <div class="card-btn-container">
+                    <button class="card-btn card-btn-primary">Add to Cart</button>
+                    <button class="card-btn card-btn-secondary">Save For Later</button>
+                    <i class="card-btn-icon far fa-heart"></i>
+                </div>
+                <div class="card-badge">-22%</div>
+            </div>
+
+            <div class="card-container">
+                <img class="card-image" src="/assets/norwegian-wood.jpeg"
+                 alt="Item Image">
+                <h6 class="card-title">Norwegian Wood, Haruki Murakami</h6>
+                <p class="card-description card-price">₹ 300</p>
+                <div class="card-btn-container">
+                    <button class="card-btn card-btn-primary">Add to Cart</button>
+                    <button class="card-btn card-btn-secondary">Save For Later</button>
+                    <i class="card-btn-icon far fa-heart"></i>
+                </div>
+                <div class="card-badge">-22%</div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <ul class="footer-list-container">
+                <li><a class="footer-list-item" href="#">Privacy Policy</a></li>
+                <li><a class="footer-list-item" href="#">Return Policy</a></li>
+                <li><a class="footer-list-item" href="#">Contact Us</a></li>
+                <li><a class="footer-list-item" href="#">Career</a></li>
+            </ul>
+            <p class="text-lg">© 2022 E-COMMERCE-UI</p>
+        </footer> 
+
+    </div>
+</body>
+
+</html>
