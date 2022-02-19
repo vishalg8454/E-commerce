@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="./product-page.css">
     <script src="https://kit.fontawesome.com/06bd83eb3a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="grid-wrapper">
 
@@ -38,8 +40,67 @@
                 </ul>
             </div>
         </nav>
-        
+
+        <aside class="filter">
+            <p class="filter-label">Filters</p>
+            <p class="filter-label">Price</p>
+            <div class="slider-container">
+                <div class="label-container">
+                    <span>0</span>
+                    <span>50</span>
+                    <span>100</span>
+                </div>
+                <input class="slider" type="range" min="0" max="100" value="50">
+            </div>
+            <p class="filter-label">Category</p>
+            <ul class="category-list">
+                <li class="category-list-item">
+                    <input type="checkbox" name="category">
+                    <label for="fiction"> Fiction</label><br>
+                </li>
+                <li class="category-list-item">
+                    <input type="checkbox" name="category">
+                    <label for="sci-fi"> Sci-Fi</label><br>
+                </li>
+                <li class="category-list-item">
+                    <input type="checkbox" name="category">
+                    <label for="novel"> Novel</label><br>
+                </li>
+            </ul>
+            <p class="filter-label">Rating</p>
+            <ul class="category-list">
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="4">
+                    <label for="4star">4 Stars & above</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="3">
+                    <label for="3star">3 Stars & above</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="2">
+                    <label for="2star">2 Stars & above</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="4star" name="rating" value="1">
+                    <label for="1star">1 Stars & above</label>
+                </li>
+            </ul>
+            <p class="filter-label">Sort by</p>
+            <ul class="category-list">
+                <li class="category-list-item">
+                    <input type="radio" id="low" name="sort">
+                    <label for="low">Price - Low to High</label>
+                </li>
+                <li class="category-list-item">
+                    <input type="radio" id="high" name="sort">
+                    <label for="high">Price - High to Low</label>
+                </li>
+            </ul>
+        </aside>
+
         
     </div>
 </body>
+
 </html>
