@@ -3,3 +3,4 @@ This respository contains UI screens for the ecommerce web app. Most of the comp
 
 This repo contains screens for following pages.
 1. Homescreen
+2. Product Page
