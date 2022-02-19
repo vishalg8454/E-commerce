@@ -21,7 +21,6 @@
 .filter-label{
     font-weight: bold;
     padding-bottom: 1rem;
-    /* margin: 1rem; */
 }
 .category-list{
     list-style: none;
@@ -29,4 +28,21 @@
 .category-list-item{
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
+}
+.main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: var(--color-light-gray);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.card-container{
+    margin: 1rem;
+}
+.card-price{
+    font-weight: bold;
+    font-size: large;
+    padding-right: 1rem;
 }
