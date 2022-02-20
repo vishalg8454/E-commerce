@@ -5,3 +5,4 @@ This repo contains screens for following pages.
 1. Homescreen
 2. Product Page
 3. Cart Page
+4. Wishlist Page
