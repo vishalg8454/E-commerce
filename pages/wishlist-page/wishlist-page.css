@@ -1,2 +1,7 @@
 @import url('/main.css');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+
+.grid-wrapper{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
