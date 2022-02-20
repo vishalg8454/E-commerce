@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Page</title>
+
+    <link rel="stylesheet" href="https://component-vishalg8454.netlify.app/components/main.css">
+    <link rel="stylesheet" href="./cart-page.css">
+    <script src="https://kit.fontawesome.com/06bd83eb3a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="grid-wrapper">
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <a class="nav-logo" href="#">E-COMMERCE</a>
+                <div class="nav-search-container">
+                    <input class="nav-search-text" type="text">
+                    <button class="nav-search-button"><i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <button class="btn btn-primary-outline  nav-cta">Login</button>
+                <ul class="nav-list">
+                    <li class="nav-list-items">
+                        <div>
+                            <a> <i class="badge-icon fas fa-heart nav-icon"></i></a>
+                            <div class="badge-text">9</div>
+                        </div>
+                    </li>
+                    <li class="nav-list-items">
+                        <div>
+                            <a><i class="badge-icon fas fa-shopping-cart nav-icon"></i></a>
+                            <div class="badge-text">3</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h4 class="cart-count">Cart (2items)</h4>
+
+        <main class="main">
+            <div class="card-container card-horizontal">
+                <img class="card-image" src="/assets/5ac.jpeg" alt="Item Image">
+                <div class="card-container">
+                    <h6 class="card-title">The 5AM Club: Own Your Morning. Elevate Your Life</h6>
+                    <p class="card-description">₹300</p>
+                    <div class="card-btn-container">
+                        <button class="card-btn card-btn-primary">Remove</button>
+                        <button class="card-btn card-btn-secondary">Save For Later</button>
+                        <i class="card-btn-icon far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container card-horizontal">
+                <img class="card-image" src="/assets/5ac.jpeg" alt="Item Image">
+                <div class="card-container">
+                    <h6 class="card-title">The 5AM Club: Own Your Morning. Elevate Your Life</h6>
+                    <p class="card-description">₹300</p>
+                    <div class="card-btn-container">
+                        <button class="card-btn card-btn-primary">Remove</button>
+                        <button class="card-btn card-btn-secondary">Save For Later</button>
+                        <i class="card-btn-icon far fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="aside">
+            <div class="text-md border-bottom">Price Details</div>
+            <div class="text-space-bw text-sm"><span>Price (2 items)</span><span>₹1400</span></div>
+            <div class="text-space-bw text-sm"><span>Discount</span><span>-₹300</span></div>
+            <div class="text-space-bw text-sm"><span>Delivery Charges</span><span>₹100</span></div>
+            <div class="text-space-bw text-md"><span>Total Amount</span><span>₹1200</span></div>
+            <div class="text-sm">You will save ₹300 on this order</div>
+            <button class="btn-order btn btn-primary-solid">PLACE ORDER</button>
+        </aside>
+
+        <footer class="footer">
+            <ul class="footer-list-container">
+                <li><a class="footer-list-item" href="#">Privacy Policy</a></li>
+                <li><a class="footer-list-item" href="#">Return Policy</a></li>
+                <li><a class="footer-list-item" href="#">Contact Us</a></li>
+                <li><a class="footer-list-item" href="#">Career</a></li>
+            </ul>
+            <p class="text-lg">© 2022 E-COMMERCE-UI</p>
+        </footer> 
+        
+    </div>
+</body>
+
+</html>
