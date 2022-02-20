@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="./login-page.css">
     <script src="https://kit.fontawesome.com/06bd83eb3a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="grid-wrapper">
 
@@ -39,6 +41,22 @@
             </div>
         </nav>
 
+        <div class="signin-container">
+            <form class="form-wrapper">
+                <label class="input-label" for="email">Email Address </label>
+                <input class="input" type="email" name="email" id="email" required>
+                <label class="input-label" for="password">Password </label>
+                <input class="input" type="password" name="password" id="password" required>
+                <div class="checkbox-div">
+                    <input  type="checkbox" name="remember">
+                    <label for="remember"> Remember me</label>
+                </div>
+                <span class="input-label btn-link"><a href="#">Forgot your Password?</a></span>
+                <input class="btn btn-primary-solid btn-login" type="submit" value="Login">
+                <button class="btn btn-link">Create New Account</button>
+            </form>
+        </div>
     </div>
 </body>
+
 </html>
