@@ -6,3 +6,4 @@ This repo contains screens for following pages.
 2. Product Page
 3. Cart Page
 4. Wishlist Page
+5. Login Page
