@@ -5,3 +5,11 @@
     display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
+.navbar{
+    grid-row: 1/2;
+}
+.wishlist-header{
+    grid-row: 2/3;
+    padding: 1rem;
+    text-align: center;
+}
